@@ -37,9 +37,11 @@ public class ChatFinal {
 		}
 
 		System.out.println(" welcome " + myname + "!");
+		// add user name to the start
 		myname = myname + ">";
 		nameLength = (myname.getBytes()).length;
 		for (int i = 0; i < nameLength; i++) {
+			// add chatting context to buff
 			buff[i] = (myname.getBytes())[i];
 		}
 	}
