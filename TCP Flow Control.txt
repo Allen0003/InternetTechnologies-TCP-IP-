@@ -1,0 +1,15 @@
+
+
+Receiving Buffers
+Sending Buffers
+
+
+Receive Window Size
+
+TCP Flow Control:
+
+	principal: receiver tells sender that how much data I can receive now
+
+
+method1: Stop-and-Wait
+method2: Sliding Window --> receiver tells sender the size of (Receive Window Size, rwnd) 
